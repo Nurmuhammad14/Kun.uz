@@ -1,0 +1,130 @@
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    text-align: center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 300px;
+  }
+  
+  .menu-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .menu-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-column li {
+    margin-bottom: 10px;
+    color: #1d3d9a;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .menu-column li:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-image {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .menu-functionalities {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .menu-functionalities h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .toggle-button {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+    background: #fff;
+  }
+  
+  .moon-icon {
+    font-size: 18px;
+  }
+  .menu-item, .nav-menu {
+    overflow: visible; /* Hover qilinganda to'liq matn ko'rsatilishi uchun */
+    white-space: normal;
+    text-overflow: ellipsis; /* Uzun matnni uch nuqta bilan qisqartirish uchun */
+  }
+  .menu-item{
+    transition: color 0.2s ease;
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #032058;
+    margin-bottom: 0;
+  }
+  .menu-container{
+   justify-content: space-between;
+  }
+  .theme{
+    width: 54px;
+    height: 25px;
+    margin-right: 40px;
+    margin-bottom: 150px;
+  }
+.z-index{
+    z-index: 1;
+    width: 300px;
+}
+.z2{
+    z-index: 2;
+    position: absolute;
+}
+.fut-menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    box-shadow: 0 0 44px 0 rgba(0, 0, 0, 0.2);
+}
+.menu-footer{
+    align-items: center;
+    background-color: white;
+}
+.fut-menu li{
+    padding: 10px 10px;
+    font-size: 12px;
+    color: var(--black);
+    font-weight: 600;
+    white-space: nowrap;
+}
+.fut-menu a{
+    color: black;
+    text-decoration: none;
+}

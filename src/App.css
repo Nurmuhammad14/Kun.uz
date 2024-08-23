@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8d8d897;
+  }
+  
+  .container {
+    margin: 0 auto; 
+    padding: 0 100px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px;
+    transition: color 0.3s;
+    font-weight: 550;
+    font-size: 15px;
+  }
+  nav {
+    box-shadow: '0 4px 8px rgba(0, 10, 0, 0.1)';
+  }
+  
+  nav a:hover {
+    color: rgb(0, 0, 139);
+  }
+ .bag{
+  width: 42px;
+  height: 42px;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #f8f8f8;
+ }
+ select{
+  border: none;
+  background-color: #f8f8f8;
+  height: 42px;
+  border-radius: 5px;
+  padding: 5px;
+  display: block;
+ }
+ option{
+  font-family: Arial;
+  font-weight: 700;
+  border: none;
+ }
+ .butmenu{
+  border: none;
+  background: none;
+ }
+ optgroup{
+  padding: 10px;
+  border: none;
+ }
+  .mx{
+    margin-right: 85px;
+  }
+  .close-button {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .close-button:hover {
+    transform: rotate(90deg);
+    color: #ff0000;
+  }
+  
+  .search-input-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    gap: 5px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    z-index: 1000;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f8f8;
+  }
+  
+  .close-button {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .close-button:hover {
+    transform: rotate(90deg);
+    color: #ff0000;
+  }
+  .category {
+    padding: 0 15px;
+    line-height: 64px; 
+    border-right: 1px solid rgba(229, 229, 229, 0.3764705882);
+    display: flex;
+    align-items: center;
+  }
+  
+  .category:last-child {
+    border-right: none;
+  }
+  .xl{
+    font-size: 14px;
+    padding: 0px 13px;
+    width: 110px;
+  }
+  .xxl{
+    font-size: 14px;
+  }

@@ -1,0 +1,56 @@
+.uzbnew{
+    margin-top: 30px;
+}
+.bn{
+    background: none;
+    color: black;
+    width: 317px;
+}
+.uzb-cards{
+    display: flex;
+    margin-bottom: 10px;
+}
+.style{
+    transition: all 0.2s ease;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+.allnews{
+    align-items: center;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.all-new{
+    display: flex;
+    height: 38px;
+    align-items: center;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--black);
+    margin-left: 5px;
+
+}
+.lightblur{
+    opacity: 0.6;
+}
+.blur{
+    opacity: 0.43;
+}
+.bl{
+    opacity: 0.4;
+}
+.uzfut{
+    margin-top: 400px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.tp{
+    margin-top: 50px;
+}

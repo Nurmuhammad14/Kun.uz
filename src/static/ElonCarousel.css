@@ -1,0 +1,12 @@
+.slick-prev, .slick-next {
+    z-index: 1;
+  }
+  
+  .slick-prev {
+    display: none; /* Carouselning chap tarafida joylashadi */
+  }
+  
+  .slick-next {
+    display: none; /* Carouselning o'ng tarafida joylashadi */
+  }
+  

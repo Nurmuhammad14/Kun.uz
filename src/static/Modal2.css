@@ -1,0 +1,72 @@
+/* Body scrollni bloklash */
+body.modal-open {
+    overflow: hidden;
+  }
+  
+  /* Modal Overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Modal fonini qoraytirish */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Modalni yuqori qatlamda ko'rsatish */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background: #ffffff; /* Modal fonini oq qilish */
+    width: 846px; /* Modal kengligi */
+    height: 732px; /* Modal balandligi */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px;   /* Modalning burchaklarini yumshatish */
+  }
+  
+  /* Video Section */
+  .modal-video {
+    width: 100%;
+    height: 60%; /* Modal balandligining 60%i video uchun */
+    overflow: hidden; /* Video atrofida scrollni bloklash */
+  }
+  
+  /* Video iframe */
+  .modal-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  
+  /* Information Section */
+  .modal-info {
+    width: 100%;
+    height: 40%; /* Modal balandligining 40%i malumotlar uchun */
+    padding: 10px;
+    overflow-y: auto; /* Malumotlar bo'lsa scroll bo'lishi */
+  }
+  
+  /* Information Title */
+  .modal-title {
+    font-size: 2em; /* Katta o'lcham */
+    font-weight: bold; /* Qalin */
+    margin-bottom: 10px; /* Bo'sh joy */
+  }
+  
+  /* Information Description */
+  .modal-description {
+    font-size: 1.5em; /* O'rta o'lcham */
+    font-weight: normal; /* Oddiy qalinlik */
+    margin-bottom: 10px; /* Bo'sh joy */
+  }
+  
+  /* Information Time */
+  .modal-time {
+    font-size: 1.2em; /* Kichikroq o'lcham */
+    font-weight: normal; /* Oddiy qalinlik */
+  }
+  

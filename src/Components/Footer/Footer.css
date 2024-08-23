@@ -1,0 +1,92 @@
+.footer {
+    padding: 20px 0;
+    margin: 0 70px;
+  }
+  
+  .fut-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.062745098);
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  .nav-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--card-title);
+    margin-bottom: 0;
+    transform-origin: 50% 0;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    color: #242833;
+  }
+  
+  .nav-item:hover {
+    transform: rotateY(360deg);
+    color: darkblue;
+  }
+  .tele,.face,.twi,.ins{
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+  }
+  .ins:hover {
+    transform: translate(0px, -10px);
+    color: darkblue;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+  }
+  .tele:hover {
+    transform: translate(0px, -10px);
+    color: darkblue;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); 
+    transition: 0.3s;
+  }
+  .twi:hover {
+    transform: translate(0px, -10px);
+    color: darkblue;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); 
+    transition: 0.3s;
+  }
+  .face:hover {
+    transform: translate(0px, -10px);
+    color: darkblue;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); 
+    transition: 0.3s;
+  }
+ .stor{
+  width: 100px;
+  height: 100px;
+ }
+ .footer-info{
+  font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    margin-bottom: 26px;
+    margin-top: 30px;
+ }
+ .futlogo{
+  height: 31px;
+  margin-left: 0;
+ }
+ .hov{
+  margin-right: 20px;
+ }
+ .uzfuts{
+  margin-top: 500px;
+  margin-right: 20px;
+ }

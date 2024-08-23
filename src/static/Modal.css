@@ -1,0 +1,96 @@
+.card {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .card-video img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-in {
+    font-size: 16px;
+  }
+  
+  .city-data.pad {
+    padding: 10px;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #ffffff;
+    width: 846px;
+    height: 732px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px;
+  }
+  
+  .modal-video {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+  }
+  
+  .modal-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  
+  .modal-info {
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .modal-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .modal-description {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .modal-time {
+    font-size: 1.2em;
+    font-weight: normal;
+  }
+  
+  body.modal-open {
+    overflow: hidden;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.News_div ul{
+    display: flex;
+    color: #000000;
+    font-size: 15px;
+    justify-content: space-between;
+    width: 100%;
+}
+ li{
+    padding: 13px 10px 13px ;
+    font-size: 15px;
+    color: var(--black);
+    font-weight: 500;
+    position: relative;
+    max-width: 28%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+li:hover{
+    cursor: pointer;
+    color: darkblue;
+}

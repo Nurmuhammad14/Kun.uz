@@ -1,0 +1,245 @@
+.main-conten{
+    width: 895px;
+    height: 4108px;
+    padding: 0 43px 0 56px;
+    border-left: 1px solid rgba(0, 0, 0, 0.062745098);
+    border-right: 1px solid rgba(0, 0, 0, 0.062745098);
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.icon-div{
+    width: 110px;
+    height: 545px;
+    position: fixed;
+}
+.KunUzNews-flex{
+    display: flex;
+    margin-top: 20px;
+}
+.news-title{
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 800;
+    color: #0c2f75;
+    margin-bottom: 23px;
+}
+.info-p{
+    font-family: var(--font-family-serif);
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 17px;
+}
+.info-img{
+    width: 794px;
+    height: 528px;
+}
+.sm-img{
+    font-size: 12px;
+    font-weight: 500;
+}
+.global-title{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+    margin-bottom: 20;
+    margin-top: 40px;
+}
+.start-info{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.uni-info{
+    height: 794px;
+    width: 794px;
+    margin-top: 20px;
+}
+.univ-info{
+    width: 794px;
+    height: 395px;
+}
+/* .el{
+    margin-top: 400px;
+    margin-left: 0px;
+} */
+.sss{
+    background-color: white;
+}
+.article-page {
+    width: 100%;
+    max-width: 800px;
+    /* margin: 0 auto; */
+    margin-left: 150px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 400px;
+  }
+  
+  .content {
+    margin-bottom: 20px;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 895px;
+    height: 57px;
+    background-color: #c3c3c3;
+    padding: 11px 34px 11px 56px;
+  }
+  
+  .tags button {
+    padding: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 106px;
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .tags button:hover {
+    background-color: #ddd;
+  }
+  
+  .advertisement {
+    text-align: center;
+    display: flex;
+    width: 879px;
+    height: 232px;
+  }
+  .rek{
+    display: flex;
+  }
+  .left-rek{
+    display: flex;
+    align-items: center;
+  }
+  .right-rek{
+    display: flex;
+  }
+  
+  .advertisement img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .advertisement .p {
+    margin-top: 10px;
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+    display: block;
+    margin-top: 50px;
+  }
+  /* Advertisement.css */
+.advertisement-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.062745098);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .ad-image img {
+    max-width: 175px;
+    border-radius: 8px;
+    height: 175px;
+  }
+  
+  .ad-content {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .ad-link {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+  }
+  
+  .ad-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .ad-description {
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(37, 39, 41, 0.77);
+  }
+  
+  .ad-button {
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+    width: 180px;
+    margin-top: 5px;
+  }
+  
+  .ad-button:hover {
+    background-color: #135ab8;
+  }
+  .rekimg{
+    width: 20px;
+    height: 25px;
+  }
+  .icon-div{
+    padding-left: 27px;
+  }
+  .back{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    padding: 11px;
+    color: gray;
+  }
+  .teleg{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    padding: 8px;
+  }
+    .facebook{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    padding: 9.5px;
+  }
+  .global-titler{
+    font-size: 20px;
+  }
+  .icon-div {
+    position: sticky;
+    top: 800px; /* Initial position */
+  }
+  .lll{
+    margin-left: 70px;
+  }
+  .tl{
+    margin-left: 70px;
+  }
+  .bgw{
+    background-color: white;
+  }
+  
